@@ -18,7 +18,8 @@ export default {
     }
   },
   mounted() {
-    this.connection = new WebSocket(process.env.VUE_APP_URL);
+    const url = process.env.VUE_APP_URL || "ws://localhost:8000/predict"
+    this.connection = new WebSocket(url);
     this.connection.onopen = () => console.log("connection established");
     this.connection.onmessage = this.receiveText;
   },
