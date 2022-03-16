@@ -1,7 +1,7 @@
 from fastapi import FastAPI, WebSocket
 
-from model import charRNN, GenerateText
-from config import *
+from app.model import charRNN, GenerateText
+from app.config import *
 
 app = FastAPI()
 
