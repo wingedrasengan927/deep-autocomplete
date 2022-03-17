@@ -2,6 +2,8 @@
 A Deep learning based autocomplete using character RNNs
 Associated blog: https://medium.com/p/1eb7ae19bfd8 
 
+![Application](https://github.com/wingedrasengan927/deep-autocomplete/blob/master/images/autocomplete.gif)
+
 ### Clone the repository
 clone this repository:
 ```
@@ -22,6 +24,9 @@ uvicorn app.main:app --host localhost --port 8000
 
 You should see the server up and running:
 
+![Application](https://github.com/wingedrasengan927/deep-autocomplete/blob/master/images/backend-run.png)
+
+
 ### launching frontend server
 ```
 cd frontend
@@ -30,6 +35,8 @@ npm run serve
 ```
 
 You should see the server up and running:
+
+![Application](https://github.com/wingedrasengan927/deep-autocomplete/blob/master/images/frontend-run.png)
 
 ## Deployment in Kubernetes
 Assuming you have Kubernetes installed, run the following commands in the order
