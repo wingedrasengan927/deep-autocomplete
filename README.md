@@ -4,7 +4,10 @@ Associated blog: https://medium.com/p/1eb7ae19bfd8
 
 ## Running Locally
 clone this repository:
-`git clone https://github.com/wingedrasengan927/deep-autocomplete.git`
+```
+git clone https://github.com/wingedrasengan927/deep-autocomplete.git
+cd deep-autocomplete
+```
 
 It is recommended to use a python virtual environment either with `conda` or `venv` for the backend.
 
@@ -12,7 +15,7 @@ It is recommended to use a python virtual environment either with `conda` or `ve
 ```
 cd backend
 pip install -r requirements.txt
-uvicorn main:app --host localhost --port 8000
+uvicorn app.main:app --host localhost --port 8000
 ```
 
 You should see the server up and running:
@@ -21,7 +24,7 @@ You should see the server up and running:
 ```
 cd frontend
 npm install
-npm run server
+npm run serve
 ```
 
 You should see the server up and running:

@@ -12,7 +12,7 @@ model.eval()
 
 text_gen = GenerateText(model, int2char, char2int, device)
 
-@app.websocket("/predict")
+@app.websocket("/")
 async def predict_question(websocket: WebSocket):
     await websocket.accept()
     while True:
