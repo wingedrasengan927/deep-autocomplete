@@ -1,6 +1,6 @@
 # Deep Autocomplete
-A Deep learning based autocomplete using character RNNs 
-Associated blog: https://medium.com/p/1eb7ae19bfd8 
+A Deep learning based autocomplete using character RNNs. 
+<br> Associated blog: https://medium.com/p/1eb7ae19bfd8 
 
 ![Application](https://github.com/wingedrasengan927/deep-autocomplete/blob/master/images/autocomplete.gif)
 
